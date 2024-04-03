@@ -1,0 +1,181 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #276fbf;
+  font-size: 20px;
+  color: white;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+/* Body */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+aside li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+li a:visited {
+  color: white;
+}
+
+.box a {
+  color: black;
+}
+
+.foto-saya {
+  width: 200px;
+  height: 270px;
+  border-radius: 20px;
+}
+
+/* Skck */
+.skck {
+  display: flex;
+  justify-content: center;
+}
+
+.p-skck img {
+  width: 400px;
+  height: 600px;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #149911;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex: 1;
+  align-items: center;
+
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 700px;
+}
+
+/* Box Pada Portofolio */
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 30px;
+  margin: 20px;
+}
+
+.box-child {
+  text-align: center;
+  background-color: white;
+  font-size: 40px;
+
+  width: 300px;
+  height: 60px;
+
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Content */
+
+.content {
+  background-color: #fdfffc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: justify;
+
+  display: flex;
+  flex: 3;
+
+  padding: 20px;
+  margin: 10px;
+  height: 700px;
+}
+
+/* Surat Lamaran */
+.surat-lamaran {
+  text-align: justify;
+  font-size: large;
+}
+
+/* Prestasi */
+.prestasi{
+  font-size: large;
+}
+
+/* Profile */
+
+.profile {
+  background-color: #f96f5d;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 2;
+
+  padding: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  border: 20px;
+  text-align: center;
+  font-size: large;
+
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+table tr {
+  text-align: left;
+}
+
+table th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Footer */
+
+footer {
+  background-color: #276fbf;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+}
